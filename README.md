@@ -10,6 +10,8 @@ relying on `MIN` and `MAX` [associated constants], at least on stable Rust.
 These [traits][trait] can be useful, for example, to generically implement [associated constants] storing the
 greatest length of primitive integers when converted to strings.
 
+Excerpt from Rust's reference:
+
 # Numeric types
 
 ## Integer types
@@ -45,3 +47,18 @@ The [IEEE 754-2008](https://en.wikipedia.org/wiki/IEEE_754) "binary32" and "bina
 [trait]: https://doc.rust-lang.org/book/ch10-02-traits.html
 [`num_traits::Bounded`]: https://docs.rs/num-traits/0.2.14/num_traits/bounds/trait.Bounded.html
 [associated constants]: https://doc.rust-lang.org/reference/items/associated-items.html#associated-constants
+
+# License
+
+<sup>
+Licensed under either of <a href="LICENSE-APACHE">Apache License, Version
+2.0</a> or <a href="LICENSE-MIT">MIT license</a> at your option.
+</sup>
+
+<br>
+
+<sub>
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in this crate by you, as defined in the Apache-2.0 license, shall
+be dual licensed as above, without any additional terms or conditions.
+</sub>
